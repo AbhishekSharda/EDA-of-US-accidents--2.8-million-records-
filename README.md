@@ -1,47 +1,31 @@
+## Introduction:
 
-# EDA on US accidents from 2016 to 2021 (Over 2.5 million records)
+This project aims to perform an Exploratory Data Analysis on the US accidents dataset from 2016 to 2021, which consists of over 2.5 million accident records across the US cities. The primary objective of this analysis is to gain meaningful insights from the available features in the dataset and draw conclusions that can help in improving the overall road safety.
 
-## Introduction
-In this project I attempted to gain meaningful insights from a huge list of features present in data set. Dataset contains accident records from US cities that span across nationwide from year 2016 to 2021
+## Data Preparation and Cleaning:
 
+In this section, the necessary libraries were imported, and the dataset was downloaded using the Kaggle API. The basic information about the dataset, such as the number of records, shape, and statistics, was analyzed. Furthermore, missing values were identified, and steps were taken to fix them.
 
-## Data Preparation and Cleaning 
-    Operations attempted in this section:-
-     -Load file using Pandas:
-        *  Imported required libraries like pandas,
-            opendatsets
+## Exploratory Data Analysis:
 
-        *  Used Kaggle API to download dataset 
-           directly   to google colab.
+In this section, an in-depth analysis of the dataset was performed. Various aspects, such as the most affected cities by accidents, the hours, days of the week, and months that witness the most number of accidents, the impact of having a bump and a roundabout on accidents, and the impact of visibility on the severity of accidents, were analyzed. Clean and simple visualizations were used to answer the questions developed during the analysis.
 
-     -Look at information about data and its columns
+## Questions:
 
-        * Checked basic information abut my dataset,
-          eg. number of records,shape,stats. 
+A list of questions was developed to help in performing the EDA. Some of the questions answered during the analysis are:
 
-     -Fix any missing or incorrect values
-        *  Checked for missing values present in my
-           dataset  
+What are the most affected cities by accidents?
 
-## Exploratory Data Analysis
-    * Performed indepth analysis on cities feature, to
-      check most affected cities by accidents.
+Which hour, day of the week, and month witnesses the most number of accidents?
 
-    * Visualised which hour, day of the week and month
-      witnesses most number of accidents 
+Does having a bump increase the chances of accidents?
 
-    * Analyzed if having bump can increase the chances 
-      of accidents.
+Does a roundabout contribute to accidents?
 
-    * Analyzed if rounabout is a factor contributing 
-      to accidents
+Does visibility impact the severity of accidents?
 
-    * Further compared severity of accident and 
-      visibility and their combination causing an
-      increased number of accidents or not?
+## Summary and Conclusion:
 
-      
-## Questions
-Added a list of questions to my notebook that i developed while performing EDA, and answered each of them with help of clean and simple visualisations in the notebook itself
-## Summary and Conclusion
-This section contains list of insights that I obtained while answering all the questions i developed while performing EDA.
+The insights obtained from answering the questions developed during the analysis are listed in this section. The analysis revealed that Los Angeles and Houston were the most affected cities by accidents, and accidents were more frequent during rush hours and on Fridays. Furthermore, accidents involving a bump and a roundabout were less frequent than those that did not involve them. Additionally, a combination of low visibility and severe weather conditions increased the chances of severe accidents.
+
+Overall, this EDA provides useful insights into the US accidents dataset from 2016 to 2021, which can help in improving the overall road safety. The analysis also demonstrates the importance of data-driven decision-making in identifying areas of improvement and taking necessary steps to reduce the number of accidents.
